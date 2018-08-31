@@ -1,5 +1,5 @@
 div {
-	border: 1px solid black;
+	border: 2px solid black;
 }
 
 #top-bar {
@@ -21,6 +21,7 @@ div {
 	box-sizing :border-box;
 	word-wrap: break-word;
 	font-family: 'Merriweather', serif;
+	background-color: rgba(15,96,79,0.5);
 
 }
 
@@ -34,19 +35,46 @@ div {
 
 #btn-call {
 	position: absolute;
-	left: 975px;
-	top:100px;
+	left: 250px;
+	top:500px;
+	border-radius:4px;
+	cursor: pointer;
+	width: 73%;
+	color: black;
+	background-color: rgba(255,99,71,0.5);
+	padding: 14px 20px;
+	border-color: black
 
 }
 
 #selected-student {
 	font-family: 'Merriweather', serif;
-	font-size: xx-large;
+	font-size: 120px;
+	width: 100%;
 	margin: 0 auto;
-	width: 30%;
-
+	text-align:center;
 }
 
 #list {
 	list-style-type: none;
+}
+
+#btn {
+	background-color: rgba(255,99,71,0.5);
+	border-color: black;
+	width: auto;
+	margin-left: 15px;
+	border-radius: 4px;
+	position: absolute;
+	top:530px;
+}
+
+#add-name {
+	margin-left: 15px;
+}
+
+#date {
+	display: inline-block;
+	font-size: 16px;
+	margin-left: 350px;
 }

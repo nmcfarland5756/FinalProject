@@ -13,7 +13,9 @@ addName.addEventListener("keyup", function(event) {
     newName = addName.value
 	students.push(newName)
 	l.innerHTML += '<li>' + newName + '</li>'
+		addName.value=""
     }
+   
 });
 let btn = document.getElementById('btn')
 
@@ -21,6 +23,7 @@ btn.addEventListener('click', function() {
 	newName = addName.value
 	students.push(newName)
 	l.innerHTML += '<li>' + newName + '</li>'
+	addName.value=""
 })
 
 let btnCall = document.getElementById("btn-call")
@@ -30,4 +33,5 @@ btnCall.addEventListener('click', function(){
 	selectStudent.innerHTML = calledStudent
 })
 
-
+var d = new Date("08/30/2018");
+document.getElementById("date").innerHTML = d;
